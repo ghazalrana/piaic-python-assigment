@@ -1,8 +1,44 @@
 # piaic-python-assigment
 
 
-Task1: Docker
--------------
+Task1 : (Docker + Python)
+-------------------------
+
+Dockerize python flask application.
+
+1- Clone the project https://github.com/Cryptic-Gemini/piaic-python-assigment.git
+
+2- Create a Dockerfile
+
+3- Bring up the Application in web browser at port 2020.
+
+
+Task2: (Heroku + python + gunicorn)
+-----------------------------------
+
+Deploying python app on Heroku using gunicorn.
+
+1- Clone the project https://github.com/Cryptic-Gemini/piaic-python-assigment.git
+
+2- Install heroku CLI using: $ sudo snap install --classic heroku
+
+3- Create a Procfile
+
+4- After you install the CLI, run the heroku login command. ($ heroku login).
+
+5- Initialize a local Git repository and commit your application code to it.
+
+6- Create a Heroku app:  ($ heroku create app-name)
+
+7- Add a remote to your local repository: $ heroku git:remote -a app-name
+
+8- Use the git push command to deploy your app on Heroku: $ git push heroku master 
+
+9- You will find your app running as:  https://app-name.herokuapp.com/
+
+
+Task3: (Docker Compose + python + uWSGI + nginx)
+-----------------------------------------------
 
 Dockerize python flask application by setting up the uWSGI application server to launch the application and Nginx to act as a front end reverse proxy.
 
@@ -21,9 +57,34 @@ Dockerize python flask application by setting up the uWSGI application server to
 
 7- Bring up the Application in web browser at port 2020.
 
+Task4 :(Heroku + python + uWSGI + nginx)
+-----------------------------------------
 
-Task2: kubernetes
----------------
+Python app (AI model) using uwsgi and nginx deployed on heroku
+
+1- Clone the project https://github.com/naveed-rana/PIAIC-Faisalabad-Kubernetes-Assignment-01
+
+2- Install heroku CLI using: $ sudo snap install --classic heroku
+
+3- Set http-socket to :$(PORT) in uWSGI Configuration File
+
+4- Make a Procfile to start your uWSGI instance.
+
+5- After you install the CLI, run the heroku login command. ($ heroku login).
+
+6- Initialize a local Git repository and commit your application code to it.
+
+7- Create a Heroku app:  ($ heroku create app-name)
+
+8- Add a remote to your local repository: $ heroku git:remote -a app-name
+
+9- Use the git push command to deploy your app on Heroku: $ git push heroku master 
+
+10- You will find your app running as:  https://app-name.herokuapp.com/
+
+
+Task5: kubernetes
+------------------
 (a)Dockerize python flask application by setting up the uWSGI application server to launch the application and Nginx to act as a front end reverse proxy.
 
 (b)Deploy in kubernetes Pod by using ConfigMap
