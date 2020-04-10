@@ -30,13 +30,19 @@ Task2: kubernetes
 
 Requirements:
 
-Create Dockerfiles for each service to build images.
-Create docker-compose.yml to run multiple containers together.
-Deploy the entire stack with the docker-compose command.
-Pushing the docker images to the docker hub.
-Create a ConfigMap with the Nginx configuration file.
-Create a multi-container Pod (web app and Nginx in separate containers)
-Expose the Pod using nodePort service.
+1-Create Dockerfiles for each service to build images.
+
+2-Create docker-compose.yml to run multiple containers together.
+
+3-Deploy the entire stack with the docker-compose command.
+
+4-Pushing the docker images to the docker hub.
+
+5-Create a ConfigMap with the Nginx configuration file.
+
+6-Create a multi-container Pod (web app and Nginx in separate containers)
+
+7-Expose the Pod using nodePort service.
 
 Assignment Help
 -----------------------------------------------------------------------------------------------------------------------------
