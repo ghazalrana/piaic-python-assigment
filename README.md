@@ -1,7 +1,11 @@
 # piaic-python-assigment
+
+
+Task1: Docker
+-------------
+
 Dockerize python flask application by setting up the uWSGI application server to launch the application and Nginx to act as a front end reverse proxy.
 
-Requirements:
 
 1- Install Docker
 
@@ -17,6 +21,22 @@ Requirements:
 
 7- Bring up the Application in web browser at port 2020.
 
+
+Task2: kubernetes
+---------------
+(a)Dockerize python flask application by setting up the uWSGI application server to launch the application and Nginx to act as a front end reverse proxy.
+
+(b)Deploy in kubernetes Pod by using ConfigMap
+
+Requirements:
+
+Create Dockerfiles for each service to build images.
+Create docker-compose.yml to run multiple containers together.
+Deploy the entire stack with the docker-compose command.
+Pushing the docker images to the docker hub.
+Create a ConfigMap with the Nginx configuration file.
+Create a multi-container Pod (web app and Nginx in separate containers)
+Expose the Pod using nodePort service.
 
 Assignment Help
 -----------------------------------------------------------------------------------------------------------------------------
