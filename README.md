@@ -11,7 +11,7 @@ Dockerize python flask application by setting up the uWSGI application server to
 
 2- Install Docker Compose
 
-3- Clone the projecthttps://github.com/Cryptic-Gemini/piaic-python-assigment.git
+3- Clone the project https://github.com/Cryptic-Gemini/piaic-python-assigment.git
 
 4- Create two dockerfiles for flask & nginx.
 
